@@ -48,6 +48,7 @@ h2{font-size:30px;margin:0 0 6px}
 .griglia{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:18px}
 .card{background:var(--bianco);border-radius:10px;border-top:4px solid var(--accento);padding:22px 18px;text-align:center}
 .avatar{width:72px;height:72px;border-radius:50%;background:var(--notte);color:var(--accento-chiaro);font-weight:800;font-size:24px;display:grid;place-items:center;margin:0 auto 12px}
+.avatar-img{display:block;width:100%;max-width:180px;aspect-ratio:1;object-fit:cover;border-radius:12px;margin:0 auto 12px}
 .card h3{margin:0 0 2px;font-size:18px}
 .ruolo{color:var(--accento-scuro);font-weight:700;font-size:14px;margin:0 0 8px}
 .card p{margin:0;color:var(--grigio);font-size:14px}
@@ -58,6 +59,8 @@ h2{font-size:30px;margin:0 0 6px}
 .progetto .fascia small{color:var(--accento-chiaro);font-weight:700;letter-spacing:.06em}
 .progetto .fascia h3{margin:4px 0 0;font-size:20px}
 .progetto .corpo{padding:18px 20px;color:var(--grigio);font-size:15px;flex:1}
+.scarica{display:inline-block;margin-top:12px;background:var(--accento-scuro);color:var(--bianco);font-weight:700;font-size:14px;padding:8px 16px;border-radius:8px;text-decoration:none}
+.scarica:hover{background:var(--notte)}
 .stato{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;margin-top:10px}
 .stato.fatto{background:#DDF3EC;color:#137457}
 .stato.corso{background:#FDF0D8;color:#8A5A07}

@@ -7,8 +7,9 @@ Questo è il sito della squadriglia: **https://www.3ata-pegasus.ata-lucarelli.it
 1. Aprite questo repository su github.com e premete il tasto **`.`** (punto) sulla tastiera:
    si apre un editor nel browser.
 2. Modificate i file:
-   - `index.html` per i testi (chi siamo, squadra, progetti, diario);
+   - `index.html` per i testi (chi siamo, squadra, esercitazioni, diario);
    - `style.css` per i colori, che sono in cima al file;
+   - la cartella `esercitazioni/` per i file da scaricare;
    - la cartella `img/` per le immagini, che si caricano trascinandole nell'editor.
 3. A sinistra, nell'icona **Source Control**, scrivete cosa avete cambiato (per esempio
    "aggiunto diario 16 ottobre") e premete **Commit & Push**.
